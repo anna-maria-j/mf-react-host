@@ -1,6 +1,5 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { ThemeProvider } from "@mui/material";
 import { HelloWorld } from "helloWorld/HelloWorld";
 
 import "./index.css";
@@ -8,10 +7,8 @@ import { theme } from "./AppTheme";
 
 const App = () => (
   <div className="container">
-    <ThemeProvider theme={theme}>
-      <div>Name: mf-react-host</div>
-      <HelloWorld authToken="loremipsum"/>
-    </ThemeProvider>
+    <div>Name: mf-react-host</div>
+    <HelloWorld authToken="loremipsum"/>
   </div>
 );
 const container = document.getElementById("app");
