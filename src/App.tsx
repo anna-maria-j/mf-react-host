@@ -12,7 +12,7 @@ const App: React.FC = () => {
   return (
     <div className="container">
       <h1>React microfrontend host</h1>
-      <button onClick={() => setIsAuthenticated(!isAuthenticated)}>
+      <button className="loginBtn" onClick={() => setIsAuthenticated(!isAuthenticated)}>
         Sign { isAuthenticated ? 'out' : 'in' }
       </button>
       <HelloWorld authToken="input_from_React_host"/>

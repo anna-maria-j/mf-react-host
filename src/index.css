@@ -7,11 +7,14 @@ body {
   margin-top: 20px;
 }
 
-button {
+.loginBtn {
   all: unset;
   background: navy;
   color: white;
   border-radius: 4px;
   padding: 10px 20px;
   cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 40px;
 }
