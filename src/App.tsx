@@ -15,7 +15,7 @@ const App: React.FC = () => {
       <button className="loginBtn" onClick={() => setIsAuthenticated(!isAuthenticated)}>
         Sign { isAuthenticated ? 'out' : 'in' }
       </button>
-      <HelloWorld authToken="input_from_React_host"/>
+      <HelloWorld />
     </div>
   );
 };
